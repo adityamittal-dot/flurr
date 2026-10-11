@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="atWorkTitle">
+  <title id="atWorkTitle">Placeholder illustration of hands crocheting with sage-green yarn, standing in for a studio photo</title>
+  <rect width="640" height="640" fill="#efeadf"/>
+  <circle cx="320" cy="330" r="230" fill="#e2dccb"/>
+
+  <!-- yarn ball in lap -->
+  <g>
+    <ellipse cx="300" cy="420" rx="90" ry="70" fill="#5f6f55"/>
+    <ellipse cx="300" cy="420" rx="90" ry="70" fill="none" stroke="#4a5743" stroke-width="2.5" stroke-dasharray="1 10"/>
+    <ellipse cx="300" cy="420" rx="60" ry="46" fill="none" stroke="#798a6d" stroke-width="2" stroke-dasharray="1 9"/>
+  </g>
+
+  <!-- working thread up to hands -->
+  <path d="M250 370 C 230 300 250 260 280 230" fill="none" stroke="#4a5743" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- hands (simplified mitten shapes) -->
+  <g fill="#e8c9a0">
+    <path d="M220 230 q10 -46 56 -46 q40 0 44 38 q4 34 -20 46 q-20 10 -50 6 q-30 -4 -30 -44z"/>
+    <path d="M330 220 q4 -42 46 -44 q38 -2 46 34 q6 30 -14 44 q-18 14 -48 10 q-30 -4 -30 -44z"/>
+  </g>
+
+  <!-- crochet hook between hands -->
+  <g transform="translate(300 206) rotate(-10)">
+    <rect x="-6" y="0" width="12" height="90" rx="6" fill="#cf9a3d"/>
+    <path d="M0 0 C -16 -10 -14 -24 2 -26 C 12 -27 16 -18 8 -12" fill="none" stroke="#cf9a3d" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- in-progress stitched swatch -->
+  <g transform="translate(300 180)" opacity="0.9">
+    <rect x="-40" y="-6" width="80" height="26" rx="4" fill="#d9a441"/>
+    <g stroke="#b9842f" stroke-width="2">
+      <path d="M-32 -2 v20"/><path d="M-16 -2 v20"/><path d="M0 -2 v20"/><path d="M16 -2 v20"/><path d="M32 -2 v20"/>
+    </g>
+  </g>
+
+  <g transform="translate(486 486)">
+    <path d="M0 18 L18 0" stroke="#8c8370" stroke-width="2"/>
+    <rect x="10" y="10" width="92" height="40" rx="6" fill="#efe5cf" stroke="#c9bb98" stroke-width="1.5"/>
+    <circle cx="24" cy="30" r="3" fill="#c9bb98"/>
+    <text x="38" y="27" font-family="Georgia, serif" font-size="11" fill="#5f6f55">flurr</text>
+    <text x="38" y="41" font-family="Georgia, serif" font-size="8" fill="#8c8370">sample image</text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="sageBlushTitle">
+  <title id="sageBlushTitle">Placeholder illustration of the Sage &amp; Blush Bouquet, crochet flowers in dusty rose and sage</title>
+  <rect width="640" height="640" fill="#efeadf"/>
+  <circle cx="320" cy="330" r="230" fill="#e2dccb"/>
+
+  <g stroke="#5f6f55" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M320 480 C 300 410 250 390 220 350"/>
+    <path d="M320 480 C 320 400 320 350 320 290"/>
+    <path d="M320 480 C 340 410 400 390 430 345"/>
+    <path d="M320 480 C 330 430 370 420 390 400"/>
+  </g>
+  <g fill="#6b7a60">
+    <ellipse cx="250" cy="410" rx="20" ry="10" transform="rotate(44 250 410)"/>
+    <ellipse cx="392" cy="412" rx="20" ry="10" transform="rotate(-40 392 412)"/>
+  </g>
+
+  <!-- blush roses -->
+  <g>
+    <g transform="translate(220 340)">
+      <circle r="24" fill="#d9a8a0"/>
+      <circle r="16" fill="#e4bcb4"/>
+      <circle r="8" fill="#c88f86"/>
+    </g>
+    <g transform="translate(320 280)">
+      <circle r="30" fill="#deb2aa"/>
+      <circle r="20" fill="#e9c6be"/>
+      <circle r="10" fill="#c88f86"/>
+    </g>
+    <g transform="translate(430 330)">
+      <circle r="22" fill="#d9a8a0"/>
+      <circle r="14" fill="#e4bcb4"/>
+      <circle r="7" fill="#c88f86"/>
+    </g>
+    <!-- sage filler flower -->
+    <g transform="translate(372 388)">
+      <g fill="#9aa88c">
+        <ellipse rx="14" ry="9"/>
+        <ellipse rx="14" ry="9" transform="rotate(72)"/>
+        <ellipse rx="14" ry="9" transform="rotate(144)"/>
+        <ellipse rx="14" ry="9" transform="rotate(216)"/>
+        <ellipse rx="14" ry="9" transform="rotate(288)"/>
+      </g>
+      <circle r="7" fill="#5f6f55"/>
+    </g>
+  </g>
+
+  <path d="M296 452 q24 18 48 0" stroke="#b9a06a" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <g transform="translate(486 486)">
+    <path d="M0 18 L18 0" stroke="#8c8370" stroke-width="2"/>
+    <rect x="10" y="10" width="92" height="40" rx="6" fill="#efe5cf" stroke="#c9bb98" stroke-width="1.5"/>
+    <circle cx="24" cy="30" r="3" fill="#c9bb98"/>
+    <text x="38" y="27" font-family="Georgia, serif" font-size="11" fill="#5f6f55">flurr</text>
+    <text x="38" y="41" font-family="Georgia, serif" font-size="8" fill="#8c8370">sample image</text>
+  </g>
+</svg>
