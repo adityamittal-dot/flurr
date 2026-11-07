@@ -132,7 +132,7 @@ export default function Custom() {
                 <p aria-live="polite" className="whitespace-pre-wrap text-lg">{message}</p>
               </div>
               <div className="flex flex-wrap items-center gap-3">
-                <Button onClick={send}>Copy message and open Instagram</Button>
+                <Button className="max-sm:whitespace-normal max-sm:leading-snug" onClick={send}>Copy message and open Instagram</Button>
                 {hasWhatsApp && (
                   <LinkButton href={whatsappUrl(message)} target="_blank" rel="noopener noreferrer" variant="onMoss">
                     <WhatsappLogo size={20} weight="fill" /> Send on WhatsApp
