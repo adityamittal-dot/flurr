@@ -31,3 +31,11 @@ src/components/      one file per section
 src/index.css        design tokens (light and dark) and Tailwind theme
 research.md          competitor scan and positioning notes
 ```
+
+## Logo and texture
+
+Colours and texture come from the logo. These files in `public/` are cut from the original: `logo.webp` (full mark), `logo-wordmark.webp` (nav), `ring.webp` (hero), `yarn-ball.webp` (marquee), `braid.webp` (seamless strip used by the `Braid` component), plus the favicons and `og-image.png`.
+
+## Hosting
+
+Static build, works on any static host. On Cloudflare Pages: connect the repo, build command `npm run build`, output directory `dist`.

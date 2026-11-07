@@ -90,7 +90,7 @@ function Dialog({ make, onClose, panelRef }: { make: Make; onClose: () => void; 
           <Photo make={make} eager />
         </motion.div>
         <div className="flex flex-col justify-center gap-4 pb-2 md:pr-4">
-          <h3 id="make-title" className="font-display text-4xl font-extrabold">{make.name}</h3>
+          <h3 id="make-title" className="font-display text-4xl font-medium">{make.name}</h3>
           <p className="text-ink-soft">{make.description}</p>
           <div className="mt-2 flex flex-wrap gap-3">
             <LinkButton href={DM_URL} target="_blank" rel="noopener noreferrer">{ORDER_LABEL}</LinkButton>
@@ -128,7 +128,7 @@ export default function Makes() {
   return (
     <section id="makes" className="mx-auto max-w-6xl px-5 py-20">
       <Reveal>
-        <h2 className="text-5xl font-extrabold md:text-7xl">Meet the makes</h2>
+        <h2 className="text-5xl font-medium md:text-7xl">Meet the makes</h2>
       </Reveal>
 
       <div role="group" aria-label="Filter the makes" className="mt-8 flex flex-wrap gap-2">
@@ -185,7 +185,7 @@ export default function Makes() {
                       <Photo make={m} />
                     </div>
                   </motion.div>
-                  <span className="mt-3 block px-2 font-display text-xl font-bold">{m.name}</span>
+                  <span className="mt-3 block px-2 font-display text-xl font-medium">{m.name}</span>
                 </button>
               </motion.li>
             ))}

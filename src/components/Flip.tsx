@@ -8,7 +8,7 @@ const front = getMake('rapunzel')
 
 const Copy = () => (
   <div className="max-w-md">
-    <h2 className="text-5xl font-extrabold md:text-6xl">Every side gets the same attention.</h2>
+    <h2 className="text-5xl font-medium md:text-6xl">Every side gets the same attention.</h2>
     <p className="mt-5 text-lg text-ink-soft">The back of every piece is stitched as carefully as the front.</p>
   </div>
 )

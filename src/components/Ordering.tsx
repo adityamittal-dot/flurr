@@ -36,7 +36,7 @@ export default function Ordering() {
 
   return (
     <section id="ordering" className="mx-auto max-w-6xl px-5 py-20">
-      <Reveal><h2 className="text-5xl font-extrabold md:text-7xl">How ordering works</h2></Reveal>
+      <Reveal><h2 className="text-5xl font-medium md:text-7xl">How ordering works</h2></Reveal>
       <div ref={ref} className="relative mt-14">
         <Yarn
           id="yarn-wide" viewBox="0 0 1000 500" progress={progress}
@@ -53,7 +53,7 @@ export default function Ordering() {
             <li key={s.title} className={offsets[i]}>
               <Reveal delay={i * 0.08}>
                 <div className="rounded-[28px] bg-surface p-7 shadow-soft">
-                  <h3 className="font-display text-3xl font-bold">{s.title}</h3>
+                  <h3 className="font-display text-3xl font-medium">{s.title}</h3>
                   <p className="mt-3 text-ink-soft">{s.body}</p>
                 </div>
               </Reveal>

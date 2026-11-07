@@ -3,13 +3,14 @@
 Single-page brand site for flurr, handmade crochet by samiksha garg (@flurr_co). No cart, no prices: ordering is a conversation.
 
 ## Stack
-Vite + React + strict TypeScript, Tailwind v4 (`@tailwindcss/vite`), `motion` (import from `motion/react`), `@phosphor-icons/react`, self-hosted `@fontsource-variable/bricolage-grotesque` (display) and `@fontsource-variable/figtree` (body). No GSAP. Must pass `npm run build` and `tsc --noEmit`. Use relative `base: './'`.
+Vite + React + strict TypeScript, Tailwind v4 (`@tailwindcss/vite`), `motion` (import from `motion/react`), `@phosphor-icons/react`, self-hosted `@fontsource-variable/fraunces` (display) and `@fontsource-variable/figtree` (body). No GSAP. Must pass `npm run build` and `tsc --noEmit`. Use relative `base: './'`.
 
 Remove old `index.html`, `main.js`, `styles.css`, `assets/placeholders`, `assets/hero-yarn.svg`, `assets/texture-*`. Move favicons and og-image into `public/`. Keep `research.md`. Rewrite README (setup, config, swapping photos). No Claude/AI attribution anywhere. Do not commit.
 
 ## Tokens (CSS variables, Tailwind @theme)
-Light: bg `#EDF0E4` (pale sage), surface `#F8F9F2`, ink `#1F2B1D`, ink-soft `#4C5A47`, moss `#2F4A2C`, on-moss `#EDF0E4`, accent sunflower `#F6B916` (text on it is ink).
-Dark (`prefers-color-scheme`): bg `#141C13`, surface `#1D281B`, ink `#E9EEDF`, ink-soft `#AEBAA5`, moss `#2F4A2C`, accent the same.
+Colours are sampled from the logo. Light: bg `#FAFAF5`, surface `#FFFFFF`, ink `#2C3327`, ink-soft `#596250`, moss (deep sage) `#55624A`, sage `#828C74`, accent mustard `#DCAA4C` (text on it is ink).
+Light only: the logo sits on white, so there is no dark theme.
+Texture: `public/braid.webp` (the logo braid, unrolled), a faint knit-stitch page background, running-stitch panel edges. Logo files in `public/` come from the owner's logo; do not redraw or recolour them.
 Shape rule: interactive = full pill; images/panels = 28px. Tinted shadows only. Fixed pointer-events-none subtle grain is optional.
 
 ## Copy rules

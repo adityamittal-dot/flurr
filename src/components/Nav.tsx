@@ -31,7 +31,7 @@ export default function Nav() {
         aria-label="Main"
         className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-4 rounded-full bg-surface/90 py-2 pr-2 pl-6 shadow-soft backdrop-blur"
       >
-        <a href="#top" className="font-display text-2xl font-extrabold tracking-tight">flurr</a>
+        <a href="#top" className="shrink-0 rounded-full"><img src="logo-wordmark.webp" alt="flurr" width="912" height="408" className="h-10 w-auto" /></a>
         <ul className="hidden items-center gap-1 md:flex">
           {links.map((l) => (
             <li key={l.href}>
@@ -68,7 +68,7 @@ export default function Nav() {
             transition={{ duration: 0.2 }}
           >
             <div className="flex items-center justify-between">
-              <span className="font-display text-2xl font-extrabold">flurr</span>
+              <img src="logo-wordmark.webp" alt="flurr" width="912" height="408" className="h-10 w-auto" />
               <button
                 type="button"
                 className="grid size-10 place-items-center rounded-full bg-ink/10 active:scale-[0.97]"
@@ -84,7 +84,7 @@ export default function Nav() {
                   <a
                     href={l.href}
                     onClick={() => setOpen(false)}
-                    className="block rounded-[28px] px-4 py-3 font-display text-4xl font-bold hover:bg-surface"
+                    className="block rounded-[28px] px-4 py-3 font-display text-4xl font-medium hover:bg-surface"
                   >
                     {l.label}
                   </a>

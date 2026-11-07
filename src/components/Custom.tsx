@@ -57,8 +57,8 @@ export default function Custom() {
   return (
     <section id="custom" className="px-3 py-12 md:px-5">
       <Reveal>
-        <div className="on-moss mx-auto max-w-6xl rounded-[28px] bg-moss p-6 text-on-moss shadow-soft md:p-14">
-          <h2 className="max-w-3xl text-4xl font-extrabold md:text-6xl">Want something that doesn't exist yet?</h2>
+        <div className="on-moss mx-auto max-w-6xl stitched rounded-[28px] bg-moss p-8 text-on-moss shadow-soft md:p-14">
+          <h2 className="max-w-3xl text-4xl font-medium md:text-6xl">Want something that doesn't exist yet?</h2>
           <p className="mt-4 max-w-xl text-on-moss/85">Build your message here, then send it to us on Instagram.</p>
 
           <div className="mt-10 grid gap-10 lg:grid-cols-[1.1fr_1fr]">

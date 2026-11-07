@@ -73,7 +73,8 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: EASE }}
       >
-        <h1 className="text-[clamp(2.9rem,6vw,4.75rem)] font-extrabold">
+        <p className="eyebrow mb-5">by samiksha garg</p>
+        <h1 className="text-[clamp(2.9rem,6vw,4.75rem)]">
           Made with love, one stitch at a time.
         </h1>
         <p className="mt-6 max-w-md text-lg text-ink-soft">
@@ -95,9 +96,10 @@ export default function Hero() {
           className="relative size-full"
           style={reduce ? undefined : { rotateX, rotateY, transformStyle: 'preserve-3d' }}
         >
-          <Piece make={getMake('gigi')} className="top-[6%] left-0 w-[64%]" rotate={-4} delay={0.1} y={yBig} reduce={reduce} />
-          <Piece make={getMake('sunny')} className="top-0 right-0 w-[40%]" rotate={6} delay={0.25} y={ySmall} reduce={reduce} />
-          <Piece make={getMake('tortoise')} className="right-[2%] bottom-[2%] w-[42%]" rotate={-7} delay={0.4} y={yMid} reduce={reduce} />
+          <img src="ring.webp" alt="" width="1100" height="1091" className="pointer-events-none absolute top-1/2 left-1/2 w-full lg:w-[112%] max-w-none -translate-x-1/2 -translate-y-1/2" />
+          <Piece make={getMake('gigi')} className="top-[10%] left-[2%] w-[58%]" rotate={-4} delay={0.1} y={yBig} reduce={reduce} />
+          <Piece make={getMake('sunny')} className="top-[3%] right-[3%] w-[36%]" rotate={6} delay={0.25} y={ySmall} reduce={reduce} />
+          <Piece make={getMake('tortoise')} className="bottom-[4%] left-[26%] w-[34%]" rotate={-7} delay={0.4} y={yMid} reduce={reduce} />
         </motion.div>
       </div>
     </section>

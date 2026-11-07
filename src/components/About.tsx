@@ -19,11 +19,11 @@ export default function About() {
         </div>
       </Reveal>
       <Reveal delay={0.1}>
-        <h2 className="text-5xl font-extrabold md:text-6xl">The hands behind flurr</h2>
+        <h2 className="text-5xl font-medium md:text-6xl">The hands behind flurr</h2>
         <p className="mt-5 text-lg text-ink-soft">flurr is made by samiksha garg, one stitch at a time.</p>
         {/* TODO: samiksha's own words */}
 
-        <h3 className="mt-12 font-display text-2xl font-bold">Caring for your piece</h3>
+        <h3 className="mt-12 font-display text-2xl font-medium">Caring for your piece</h3>
         <div className="mt-4 divide-y divide-ink/15 rounded-[28px] bg-surface px-6 shadow-soft">
           {care.map((c) => {
             const isOpen = open === c.id
