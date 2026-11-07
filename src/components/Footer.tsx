@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="px-5">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4">
         <div>
-          <a href={PROFILE_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full font-semibold underline underline-offset-4">
+          <a href={PROFILE_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full py-2 font-semibold underline underline-offset-4">
             <InstagramLogo size={22} weight="fill" /> @{INSTAGRAM_HANDLE}
           </a>
           <p className="mt-2 text-ink-soft">Ordering is a conversation on Instagram.</p>

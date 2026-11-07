@@ -35,14 +35,14 @@ export default function Nav() {
         <ul className="hidden items-center gap-1 md:flex">
           {links.map((l) => (
             <li key={l.href}>
-              <a href={l.href} className="rounded-full px-2.5 py-2 font-medium text-ink-soft transition hover:bg-ink/10 hover:text-ink">
+              <a href={l.href} className="rounded-full px-2.5 py-2.5 font-medium text-ink-soft transition hover:bg-ink/10 hover:text-ink">
                 {l.label}
               </a>
             </li>
           ))}
         </ul>
         <div className="flex items-center gap-2">
-          <LinkButton href={DM_URL} target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 text-[0.95rem]">
+          <LinkButton href={DM_URL} target="_blank" rel="noopener noreferrer" className="px-5 py-3 text-[0.95rem] max-[400px]:hidden">
             {ORDER_LABEL}
           </LinkButton>
           <button

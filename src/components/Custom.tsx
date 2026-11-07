@@ -57,11 +57,11 @@ export default function Custom() {
   return (
     <section id="custom" className="px-3 py-12 md:px-5">
       <Reveal>
-        <div className="on-moss mx-auto max-w-6xl stitched rounded-[28px] bg-moss p-8 text-on-moss shadow-soft md:p-14">
+        <div className="on-moss mx-auto max-w-6xl stitched rounded-[28px] bg-moss p-6 text-on-moss sm:p-8 shadow-soft md:p-14">
           <h2 className="max-w-3xl text-4xl font-medium md:text-6xl">Want something that doesn't exist yet?</h2>
           <p className="mt-4 max-w-xl text-on-moss/85">Build your message here, then send it to us on Instagram.</p>
 
-          <div className="mt-10 grid gap-10 lg:grid-cols-[1.1fr_1fr]">
+          <div className="mt-10 grid grid-cols-[minmax(0,1fr)] gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
             <div className="space-y-8">
               <fieldset>
                 <legend className="mb-3 font-semibold">What would you like?</legend>
@@ -88,7 +88,7 @@ export default function Custom() {
                     const on = picked.includes(c.name)
                     const locked = !on && picked.length >= MAX
                     return (
-                      <div key={c.name} className="flex flex-col items-center gap-1.5">
+                      <div key={c.name} className="flex min-w-0 flex-col items-center gap-1.5">
                         <motion.button
                           type="button" aria-pressed={on} aria-label={c.name}
                           aria-disabled={locked || undefined}
@@ -97,7 +97,7 @@ export default function Custom() {
                           whileTap={{ scale: 0.93 }}
                           transition={{ type: 'spring', stiffness: 500, damping: 16 }}
                           className={cx(
-                            'grid size-12 place-items-center rounded-full border-2 sm:size-14',
+                            'grid size-11 place-items-center rounded-full border-2 sm:size-14',
                             on ? 'border-on-moss' : 'border-on-moss/30',
                             locked ? 'cursor-not-allowed opacity-40' : 'cursor-pointer',
                           )}
@@ -109,7 +109,7 @@ export default function Custom() {
                             </motion.span>
                           )}
                         </motion.button>
-                        <span className="text-sm">{c.name}</span>
+                        <span className="text-xs sm:text-sm">{c.name}</span>
                       </div>
                     )
                   })}

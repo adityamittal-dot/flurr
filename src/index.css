@@ -122,3 +122,4 @@ h1, h2, h3 {
   text-transform: uppercase;
   color: var(--ink-soft);
 }
+fieldset { min-width: 0; }
